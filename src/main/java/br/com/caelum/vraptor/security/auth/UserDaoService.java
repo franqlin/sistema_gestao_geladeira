@@ -1,17 +1,11 @@
 package br.com.caelum.vraptor.security.auth;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.authentication.AuthenticationProvider;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.encoding.PasswordEncoder;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import br.com.caelum.vraptor.security.dao.UserDao;
 import br.com.caelum.vraptor.security.dao.UserRepository;
 import br.com.caelum.vraptor.security.model.MeuUser;
 
