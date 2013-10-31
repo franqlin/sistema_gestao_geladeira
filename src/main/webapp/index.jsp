@@ -18,7 +18,7 @@
   <body id="login" onload='document.f.j_username.focus();'>
     <div class="container">
 
-      <form name='f' class="form-signin" action='/vraptor-security/j_spring_security_check' method='POST'>
+        <form name='f' class="form-signin" action='${pageContext.request.contextPath}/j_spring_security_check' method='POST'>
           <h2 class="form-signin-heading">2GE 1.0</h2>
         <input type="text" id="j_username" name="j_username" class="input-block-level" placeholder="Usu&aacute;rio">
         <input type="password"  name='j_password' class="input-block-level" placeholder="Senha">

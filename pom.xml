@@ -5,12 +5,12 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>br.com.caelum</groupId>
-	<artifactId>vraptor-security</artifactId>
+	<groupId>br.com.gesge</groupId>
+	<artifactId>gesge</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>Sistema-Geladeira</name>
+	<name>Sistema de Gestão Geladeira</name>
 	<description></description>
 	<url></url>
 
