@@ -17,9 +17,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<jetty.version>8.1.0.v20120127</jetty.version>
+		<!--jetty.version>8.1.0.v20120127</jetty.version>
 		<jetty.jsp.version>8.1.4.v20120524</jetty.jsp.version>
-		<vraptor.hibernate.path>${project.basedir}/local-repo/br/com/caelum/vraptor/vraptor-hibernate/1.0.0/vraptor-hibernate-1.0.0.jar</vraptor.hibernate.path>
+		<vraptor.hibernate.path>${project.basedir}/local-repo/br/com/caelum/vraptor/vraptor-hibernate/1.0.0/vraptor-hibernate-1.0.0.jar</vraptor.hibernate.path-->
 	</properties>
 
 	<dependencies>
@@ -76,7 +76,7 @@
 
 
 		<!-- Jetty, jsp, jstl, etc -->
-		<dependency>
+		<!--dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
 			<version>${jetty.version}</version>
@@ -95,7 +95,7 @@
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-servlets</artifactId>
 			<version>${jetty.version}</version>
-		</dependency>
+		</dependency-->
 
 		<!-- JSP -->
 		<dependency>

@@ -8,6 +8,10 @@
 		<param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
 		<param-value>messages</param-value>
 	</context-param>
+        <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+        </welcome-file-list>
+        
 	<context-param>
 		<param-name>br.com.caelum.vraptor.provider</param-name>
 		<param-value>br.com.caelum.vraptor.ioc.spring.SpringProvider</param-value>
